@@ -14,8 +14,8 @@ ReactDOM.render(
         <React.Fragment>
             <Router>
                 <Switch>
-                    <Route path="/signup" component={SignUp} />
                     <Route path="/signin" component={SignIn} />
+                    <Route path="/signup" component={SignUp} />
                     <Route path="/home" component={HomePage} />
                     <Route path="/favorites" component={FavoritesPage} />
                 </Switch>
